@@ -1,0 +1,24 @@
+NET "clk_i" LOC = "C9" ;
+
+#NET "sw<0>" LOC = "L13" | IOSTANDARD = LVTTL | PULLUP ;
+#NET "sw<1>" LOC = "L14" | IOSTANDARD = LVTTL | PULLUP ;
+#NET "sw<2>" LOC = "H18" | IOSTANDARD = LVTTL | PULLUP ;
+#NET "sw<3>" LOC = "N17" | IOSTANDARD = LVTTL | PULLUP ;
+
+NET "button_i<0>"  LOC = "H13" | IOSTANDARD = LVTTL | PULLDOWN ; # east
+NET "button_i<1>" LOC = "V4"  | IOSTANDARD = LVTTL | PULLDOWN ; # north
+NET "button_i<2>" LOC = "K17" | IOSTANDARD = LVTTL | PULLDOWN ; # south
+NET "button_i<3>"  LOC = "D18" | IOSTANDARD = LVTTL | PULLDOWN ; # west
+
+#NET "rot_i<0>"	LOC = "K18" | IOSTANDARD = LVTTL | PULLUP   ;
+#NET "rot_i<1>"	LOC = "G18" | IOSTANDARD = LVTTL | PULLUP   ;
+#NET "rot_i<2>"	LOC = "V16" | IOSTANDARD = LVTTL | PULLDOWN ;
+
+NET "led_o<7>" LOC = "F9"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "led_o<6>" LOC = "E9"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "led_o<5>" LOC = "D11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "led_o<4>" LOC = "C11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "led_o<3>" LOC = "F11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "led_o<2>" LOC = "E11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "led_o<1>" LOC = "E12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "led_o<0>" LOC = "F12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
