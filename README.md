@@ -9,3 +9,8 @@ Some bits and pieces gathered during my internships at Ericsson and Xilinx.
 * ruler, ruler_comb -- ruler for the LED checking
 * xilinx_dna -- decoder for the internal DNA primitive
 
+
+# Author
+
+- Wojciech Adam Koszek, [wojciech@koszek.com](mailto:wojciech@koszek.com)
+- [http://www.koszek.com](http://www.koszek.com)
