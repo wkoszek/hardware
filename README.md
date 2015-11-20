@@ -1,5 +1,7 @@
 # Wojciech's hardware bits
 
+[![Build Status](https://travis-ci.org/wkoszek/hardware.svg?branch=master)](https://travis-ci.org/wkoszek/hardware)
+
 Some bits and pieces gathered during my internships at Ericsson and Xilinx.
 
 ## This directory
